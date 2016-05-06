@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.minimac2.myexample.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Program"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+ <Button
+     android:id="@+id/activity_btn"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="15dp"
+     android:text="ActivityClass"
+     />
+
+    <Button
+        android:id="@+id/action_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ActionClass"
+        />
+
+
+    <Button
+        android:id="@+id/access_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AccessClass"
+        />
+
+    <Button
+        android:id="@+id/android_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AndroidClass"
+        />
+
+    <Button
+        android:id="@+id/finish_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="finishClass"
+        />
+
+
+
+</LinearLayout>
