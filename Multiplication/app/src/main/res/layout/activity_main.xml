@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.minimac2.multiplication.MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADDITION PROG"
+        android:layout_gravity="center"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/edit_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="value1"
+        android:textSize="30dp"
+
+        />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/edit1_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="value2"
+        android:textSize="30dp"
+
+        />
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@android:style/ButtonBar"
+    android:gravity="bottom"
+   >
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:onClick="Button"
+        android:text="Add"
+        android:layout_weight="1"
+       />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:onClick="Button"
+        android:text="Sub"
+        android:layout_weight="1"
+    />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:onClick="Button"
+        android:text="Mul"
+        android:layout_weight="1"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:onClick="Button"
+        android:text="Abc"
+        android:layout_weight="1"
+        />
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+
+        />
+</LinearLayout>
