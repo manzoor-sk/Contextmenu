@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         text = (TextView) findViewById(R.id.text);
 
-//the String class is used to manipulate character strings
+//the StringBuffer class is used to manipulate character strings
 
         StringBuffer stringBuffer = new StringBuffer();
 
