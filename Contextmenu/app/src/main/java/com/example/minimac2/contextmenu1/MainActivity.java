@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         // Register the ListView  for Context menu
         registerForContextMenu(listView1);
     }
-    //create a view to inflate the layout_item 
+    //create a view to inflate the layout_item
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo)
     {
