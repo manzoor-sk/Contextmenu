@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         // Register the ListView  for Context menu
         registerForContextMenu(listView1);
     }
-
+    //create a view to inflate the layout_item 
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo)
     {
@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         menu.add(0, v.getId(), 0, "Call");//groupId, itemId, order, title
         menu.add(0, v.getId(), 0, "SMS");
     }
+
     @Override
     public boolean onContextItemSelected(MenuItem item){
         if(item.getTitle()=="Call"){
