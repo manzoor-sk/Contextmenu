@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         inflater.inflate(R.menu.main_menu,menu);
 
     }
-
+//onContextItemSelected is used in select the item
     @Override
    public boolean onContextItemSelected(MenuItem item) {
         int itemId = item.getItemId();
