@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FirstApplication</string>
+    <string name="map_search_prompt" translatable="false"><i>Search by Zip, City or Address</i></string>
+    <string name="loc_search_cont" translatable="false">Search button image</string>
+    <string name="refresh_icon" translatable="false">Refresh icon</string>
+
+</resources>

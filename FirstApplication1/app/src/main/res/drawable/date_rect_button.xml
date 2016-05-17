@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+  <item android:state_pressed="true" >
+   <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+     <item>      
+     <shape android:shape="rectangle"  >
+         <solid android:color="#ffba7f"/>        
+            
+         <corners android:radius="5dip"/>    
+     </shape>
+     </item> 
+     <item android:left="20dp">
+       <bitmap  android:gravity="left" android:src="@drawable/icon_calendar_white" android:tileMode="disabled" />
+     </item>     
+   </layer-list>
+ </item>
+<item android:state_focused="true">
+   <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+     <item>      
+     <shape android:shape="rectangle"  >
+         <solid android:color="#ffba7f"/>         
+            
+         <corners android:radius="5dip"/>           
+     </shape>
+     </item> 
+     <item android:left="20dp">
+       <bitmap  android:gravity="left" android:src="@drawable/icon_calendar_white" android:tileMode="disabled" />
+     </item>     
+   </layer-list>
+ </item>  
+ <item >
+   <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+     <item>      
+     <shape android:shape="rectangle"  >
+         <solid android:color="#ff7200"/>         
+            
+         <corners android:radius="5dip"/>           
+     </shape>
+     </item> 
+     <item android:left="20dp">
+       <bitmap  android:gravity="left" android:src="@drawable/icon_calendar_white" android:tileMode="disabled" />
+     </item>     
+   </layer-list>
+ </item>
+</selector>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color> 
+    <color name="colorPrimaryDark">#303F9F</color>
+     <color name="colorAccent">#FF4081</color> 
+    <color name="very_light_grey">#A1CAF1</color> 
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="Coquelicot">#FF3800</color>
+     <color name="orange">#F06D20</color>
+     <color name="Auburn">#A84B00</color>
+    <color name="Black">#000000</color>
+    <color name="Gray">#808080</color>
+
+
+</resources>
