@@ -45,42 +45,42 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, DateFilterActivity.class);
+                Intent intent = new Intent(MainActivity.this, MapActivity.class);
                 startActivity(intent);
             }
         });
         today_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, DateFilterActivity.class);
+                Intent intent = new Intent(MainActivity.this, MapActivity.class);
                 startActivity(intent);
             }
         });
         tomorrow_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, DateFilterActivity.class);
+                Intent intent = new Intent(MainActivity.this, MapActivity.class);
                 startActivity(intent);
             }
         });
         this_weekend_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, DateFilterActivity.class);
+                Intent intent = new Intent(MainActivity.this, MapActivity.class);
                 startActivity(intent);
             }
         });
         this_week_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, DateFilterActivity.class);
+                Intent intent = new Intent(MainActivity.this, MapActivity.class);
                 startActivity(intent);
             }
         });
         done_date_filter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, DateFilterActivity.class);
+                Intent intent = new Intent(MainActivity.this, MapActivity.class);
                 startActivity(intent);
             }
         });

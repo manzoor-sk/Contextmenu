@@ -2,12 +2,20 @@ package com.example.minimac2.firstapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 
-public class DateFilterActivity extends AppCompatActivity {
+public class MapActivity extends AppCompatActivity {
+
+    Button button;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_datefilteractivty);
+        setContentView(R.layout.activity_map);
+
+        button =(Button) findViewById(R.id.button);
+
+
     }
 }
