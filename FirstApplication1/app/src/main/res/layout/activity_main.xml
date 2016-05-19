@@ -249,7 +249,7 @@
             android:layout_weight="1">
 
             <Button
-                android:id="@+id/df_from_date_text"
+                android:id="@+id/from_date_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
@@ -296,7 +296,7 @@
             android:layout_weight="1">
 
             <Button
-                android:id="@+id/df_to_date_text"
+                android:id="@+id/to_date_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"

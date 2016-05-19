@@ -6,6 +6,9 @@
     android:focusableInTouchMode="true"
     tools:context="com.example.minimac2.firstapplication.MapActivity">
 
+
+
+
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -104,6 +107,8 @@
         android:layout_below="@+id/locationSearchLayout"
         android:background="@color/orange" />
 
+
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -147,6 +152,7 @@
         android:textColor="@color/colorWhite"
         android:textSize="15sp"
         android:visibility="visible" />
+
 
     <FrameLayout
         android:id="@+id/mapBanner"
