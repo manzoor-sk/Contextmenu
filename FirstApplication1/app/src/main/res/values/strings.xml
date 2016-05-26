@@ -3,5 +3,28 @@
     <string name="map_search_prompt" translatable="false"><i>Search by Zip, City or Address</i></string>
     <string name="loc_search_cont" translatable="false">Search button image</string>
     <string name="refresh_icon" translatable="false">Refresh icon</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_section1">Title1</string>
+    <string name="title_section2">Title2</string>
+    <string name="title_section3">Title3</string>
 
+    <string-array name="nav_drawer_items">
+        <item>FIND Events</item>
+        <item>SEARCH RESULT</item>
+        <item>SETTINGS</item>
+
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/tab_location_over</item>
+        <item>@drawable/icon_list</item>
+        <item>@drawable/tab_settings</item>
+
+    </array>
+
+    Content Description
+    <string name="desc_list_item_icon">Item Icon</string>
 </resources>

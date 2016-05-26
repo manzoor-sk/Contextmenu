@@ -21,6 +21,8 @@
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="your_apikey" />
 
+        <activity android:name=".NavigationDrawerFragment" />
+        <activity android:name=".FindEvents"></activity>
     </application>
 
 </manifest>

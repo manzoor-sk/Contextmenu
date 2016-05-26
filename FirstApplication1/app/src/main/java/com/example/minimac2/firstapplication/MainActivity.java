@@ -120,15 +120,9 @@ public class MainActivity extends AppCompatActivity  {
      }
         public void onDateSet(DatePicker view, int year, int month, int day) {
 
-
-
-//            if (view.equals(from_date_text)) {
-//                from_date_text.setText(day + "/" + (month + 1) + "/" + year);
-//            } else {
-//                to_date_text.setText(day + "/" + (month + 1) + "/" + year);
-//            }
 // Do something with the time chosen by the user
             from_date_text.setText(day + "/" + (month + 1) + "/" + year);
+
             to_date_text.setText(day + "/" + (month + 1) + "/" + year);
         }
     }
@@ -162,11 +156,6 @@ public class MainActivity extends AppCompatActivity  {
 
              }
 
-//             if (view.equals(from_date_text)) {
-//                 from_date_text.setText(from_date_text.getText() + " -" + hourOfDay + ":" + minute + ":" + AM_PM);
-//             } else {
-//                 to_date_text.setText(to_date_text.getText() + " -" + hourOfDay + ":" + minute + ":" + AM_PM);
-//             }
 
              // Do something with the time chosen by the user
              from_date_text.setText(from_date_text.getText() + " -" + hourOfDay + ":" + minute + ":" + AM_PM);

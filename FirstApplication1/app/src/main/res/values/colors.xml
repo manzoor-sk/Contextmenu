@@ -10,6 +10,6 @@
      <color name="Auburn">#A84B00</color>
     <color name="Black">#000000</color>
     <color name="Gray">#808080</color>
-
-
+    <color name="Cerulean">#007BA7</color>
+    <color name="blue">#0000FF</color>
 </resources>
