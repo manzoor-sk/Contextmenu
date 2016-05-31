@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">"Change Background "</string>
+    <string name="hello_sanfoundry_android">Hello Android</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="btn_display">Display</string>
+    <string name="ChoiceText">TextView</string>
+    <string name="Vibration">Vibration</string>
+    <string name="Silent">Silent</string>
+    <string name="Choose">Choose</string>
+    <string name="Sound">Sound</string>
+    <string name="action_settings">Settings</string>
+
+
+
+</resources>
