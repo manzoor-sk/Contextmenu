@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBazaar">#98777B</color>
+    <color name="atomicTangerine">#FF9966</color>
+    <color name="cAsparagus">#87A96B</color>
+    <color name="cAlizarin">#E32636</color>
+    <color name="airForceBlue">#5D8AA8</color>
+</resources>
