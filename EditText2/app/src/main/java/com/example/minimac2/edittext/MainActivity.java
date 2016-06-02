@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public static String activity(int num) {
-        if (num == 11) {
+        if (num == 100) {
             return "th";
         }
         int lastDigit = num % 10;

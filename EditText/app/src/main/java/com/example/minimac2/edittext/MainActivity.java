@@ -40,14 +40,10 @@ public class MainActivity extends AppCompatActivity {
 
                     edit_text.setText("");
                 }
-
-            }
+              }
         });
 
     }
-
-
-
 }
 
 

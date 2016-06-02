@@ -12,7 +12,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
    ListView listView1;
-    String contacts[]={"Ajay","Sachin","Sumit","Tarun","Yogesh"};
+    String contacts[]={"Ajay","Sachin","Summit","Tarun","Yogesh"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
