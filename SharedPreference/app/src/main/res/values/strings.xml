@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SharedPreference</string>
+    <string name="app_file">APP_FILE</string>
+    <string name="app_color">APP_COLOR</string>
+    <string name="app_size">APP_SIZE</string>
+    <string name="app_info">APP_INFO</string>
+</resources>
