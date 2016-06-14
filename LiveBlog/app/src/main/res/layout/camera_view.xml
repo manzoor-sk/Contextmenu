@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/autumn_leaves" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:hint="Look at that hit"
+        android:id="@+id/textView"
+        android:layout_weight="0.02"
+        android:layout_marginTop="12dp"
+        android:gravity="center"/>
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView1"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/autumn_leaves1" />
+
+</LinearLayout>

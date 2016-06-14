@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     Float font_size;
     String font_color;
     String text_info;
-    Button button,button1,button2;
+    Button button,button1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,15 +29,7 @@ public class MainActivity extends AppCompatActivity {
         seekBar=(SeekBar)findViewById(R.id.seek_bar);
         button=(Button)findViewById(R.id.button);
         button1=(Button)findViewById(R.id.button1);
-        button2=(Button)findViewById(R.id.button2);
 
-        button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent =new Intent(getApplicationContext(),Main2Activity.class);
-                startActivity(intent);
-            }
-        });
 
         SharedPreferences sharedPreferences= MainActivity.this.getSharedPreferences(getString(R.string.app_file),MODE_PRIVATE);
         text_info= sharedPreferences.getString(getString(R.string.app_info),"");
